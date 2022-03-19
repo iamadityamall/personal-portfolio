@@ -14,7 +14,7 @@ const Sidebar = () => {
       <div
         className={
           sidebar
-            ? "rounded-xl bg-secondary fixed right-0 mr-[5vw] shadow-xl"
+            ? "rounded-xl bg-secondary fixed right-0 mr-[5vw]"
             : "hidden"
         }
       >
