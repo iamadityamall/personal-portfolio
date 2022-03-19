@@ -4,7 +4,7 @@ import HeroSection from './components/Home/HeroSection';
 import AboutSection from './components/Home/AboutSection';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
-import { useGlobalContext } from './context';
+
 
 const App = () => {
 

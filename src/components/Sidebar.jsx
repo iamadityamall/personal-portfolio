@@ -18,7 +18,7 @@ const Sidebar = () => {
             : "hidden"
         }
       >
-        <div className="flex flex-col justify-center p-4 text-center">
+        <div className="flex flex-col justify-center p-4 place-items-end">
           {navLinks.map((navLink) => {
             const { id, page } = navLink;
             return (
