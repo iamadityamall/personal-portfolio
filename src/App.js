@@ -7,7 +7,7 @@ import Sidebar from './components/Sidebar';
 import { useGlobalContext } from './context';
 
 const App = () => {
-const {sidebar, setSidebar} = useGlobalContext()
+
   return (
     <main className="bg-primary">
       <Navbar />
