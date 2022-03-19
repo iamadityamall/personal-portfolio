@@ -4,16 +4,17 @@ import HeroSection from './components/Home/HeroSection';
 import AboutSection from './components/Home/AboutSection';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
+import { useGlobalContext } from './context';
 
 const App = () => {
-
+const {sidebar, setSidebar} = useGlobalContext()
   return (
-    <main className='bg-primary'>
-      <section className="w-[90vw] mx-auto ">
-        <Navbar />
-        <Sidebar/>
+    <main className="bg-primary">
+      <Navbar />
+      <section className="w-[90vw] mx-auto" onClick={() => setSidebar(!sidebar)}>
+        <Sidebar />
         <HeroSection />
-        <AboutSection id="about"/>
+        <AboutSection id="about" />
         <Footer />
       </section>
     </main>
