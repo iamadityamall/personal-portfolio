@@ -8,7 +8,7 @@ const Navbar = () => {
   const { sidebar, setSidebar } = useGlobalContext();
 
   return (
-    <nav className="h-auto sticky top-0 overflow-hidden py-2">
+    <nav className="h-auto bg-primary sticky top-0 overflow-hidden py-2">
       <div className="flex justify-between items-center">
         {/* nav log is same for both mobile and desktop */}
         <div className="font-Poppins text-2xl p-2">Aditya Mall</div>

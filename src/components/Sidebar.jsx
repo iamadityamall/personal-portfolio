@@ -22,7 +22,7 @@ const Sidebar = () => {
           {navLinks.map((navLink) => {
             const { id, page } = navLink;
             return (
-              <a key={id} href={`#${page}`} className="text-darkPurple p-5 text-2xl rounded-lg hover:bg-lightPurple/40 font-Poppins" onClick={() => hideSidebar()}>
+              <a key={id} href={`#${page}`} className="text-darkPurple p-5 text-2xl rounded-lg hover:bg-lightPurple/40 font-Poppinsd" onClick={() => hideSidebar()}>
                 {page}
               </a>
             );
