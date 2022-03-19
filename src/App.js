@@ -11,7 +11,7 @@ const {sidebar, setSidebar} = useGlobalContext()
   return (
     <main className="bg-primary">
       <Navbar />
-      <section className="w-[90vw] mx-auto" onClick={() => setSidebar(!sidebar)}>
+      <section className="w-[90vw] mx-auto">
         <Sidebar />
         <HeroSection />
         <AboutSection id="about" />
