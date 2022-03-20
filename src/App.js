@@ -12,7 +12,7 @@ import { animateScroll as scroll } from "react-scroll";
 const App = () => {
 
   useEffect(() => {
-    scroll.scrollToTop();
+    scroll.scrollToTop('hero');
   }, []);
 
   return (
