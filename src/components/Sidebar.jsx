@@ -8,11 +8,11 @@ const Sidebar = () => {
   const { sidebar, setSidebar } = useGlobalContext();
 
   useEffect(() => {
-    setTimeout(() => {
-      if (sidebar) {
+    if (sidebar) {
+      setTimeout(() => {
         setSidebar(false);
-      }
-    }, 7000);
+      }, 5000)
+    }
   }, [setSidebar, sidebar]);
 
 
