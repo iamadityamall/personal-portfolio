@@ -14,18 +14,18 @@ const Sidebar = () => {
     }, 5000);
   }, [setSidebar, sidebar]);
 
-const handleClick = (e) => {
-  e.preventDefault();
-  setSidebar(!sidebar);
-  const target = e.target.getAttribute('href');
-  const location = document.querySelector(target).offsetTop;
-  
-  window.scrollTo({
-    left:0,
-    top: location - 80,
-  })
-  
-}
+  // smooth scroll to that link
+  const handleClick = (e) => {
+    e.preventDefault();
+    setSidebar(!sidebar);
+    const target = e.target.getAttribute("href");
+    const location = document.querySelector(target).offsetTop;
+
+    window.scrollTo({
+      left: 0,
+      top: location - 80,
+    });
+  };
 
   return (
     <>

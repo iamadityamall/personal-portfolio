@@ -6,8 +6,18 @@ import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
 import ProjectsSection from "./components/Home/ProjectsSection";
 import ContactSection from "./components/Home/ContactSection";
+import { useEffect } from "react";
 
 const App = () => {
+  
+  useEffect(() => {
+    window.scrollTo({
+      top:0,
+      left: 0,
+      behavior: "smooth",
+    })
+  }, [])
+
   return (
     <main className="bg-primary">
       <Navbar />
