@@ -18,9 +18,9 @@ const Navbar = () => {
           smooth={true}
           offset={-64}
           duration={600}
-          className="font-Poppins text-2xl p-2 cursor-pointer"
+          className="text-3xl p-2 cursor-pointer font-Lato font-semibold text-darkPurple"
         >
-          Aditya Mall
+          AM
         </Link>
 
         {/* nav links md, lg, xl */}
