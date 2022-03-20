@@ -9,14 +9,13 @@ import ContactSection from "./components/Home/ContactSection";
 import { useEffect } from "react";
 
 const App = () => {
-  
   useEffect(() => {
     window.scrollTo({
-      top:0,
+      top: 0,
       left: 0,
       behavior: "smooth",
-    })
-  }, [])
+    });
+  }, []);
 
   return (
     <main className="bg-primary">
@@ -26,7 +25,7 @@ const App = () => {
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
-        <ContactSection/>
+        <ContactSection />
         <Footer />
       </section>
     </main>
