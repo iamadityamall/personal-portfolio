@@ -10,13 +10,9 @@ import { useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 
 const App = () => {
-  
+
   useEffect(() => {
-    scroll.scrollToTop( {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-    });
+    scroll.scrollToTop();
   }, []);
 
   return (
