@@ -35,7 +35,7 @@ const Navbar = () => {
                 offset={-64}
                 duration={600}
                 key={id}
-                className="cursor-pointer p-3 rounded-lg hover:bg-black/25 font-Poppins"
+                className="cursor-pointer p-3 rounded-lg hover:bg-black/25 font-Poppins sm:hover:text-darkPurple sm:hover:bg-secondary sm:hover:border-2 sm:hover:border-darkPurple"
               >
                 {page}
               </Link>

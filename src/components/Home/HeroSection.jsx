@@ -9,7 +9,7 @@ const HeroSection = () => {
       className="h-screen bg-primary flex flex-col justify-center items-center space-y-5 md:flex-row-reverse md:justify-between xl:px-10 mt-[-20px]"
     >
       {/* hero image */}
-      <div className=" bg-secondary h-[100px] w-[100px] mt-6 rounded-full  overflow-hidden ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple z-1 md:h-[250px] md:w-[250px] xl:h-[400px] xl:w-[400px]">
+      <div className=" bg-secondary h-[100px] w-[100px] mt-6 rounded-full  overflow-hidden ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple z-1 md:h-[250px] md:w-[250px] xl:h-[400px] xl:w-[400px] xl:ring-offset-4 xl:ring-4 xl:border-4">
         <img
           src={ProfilePicture}
           alt="profile-img"
@@ -22,7 +22,7 @@ const HeroSection = () => {
         {/* hero title */}
         <div className="font-Poppins flex flex-col items-center space-y-6 md:items-start">
           <div className="flex items-center space-x-4">
-            <h4 className="font-bold py-2 xl:text-xl">Hello, 👋 I am</h4>
+            <h4 className="font-bold py-2 xl:text-xl">hello, 👋 I am</h4>
             <div className="w-20 h-[4px] bg-darkPurple"></div>
           </div>
 
@@ -48,8 +48,8 @@ const HeroSection = () => {
 
         {/* call to action */}
         <div className="flex space-x-10 justify-center md:justify-start">
-          <PrimaryButton name="connect" />
-          <PrimaryButton name="resume" />
+          <PrimaryButton name="connect" url="contact"/>
+          <PrimaryButton name="resume" url="projects" />
         </div>
       </div>
     </section>
