@@ -9,11 +9,11 @@ const HeroSection = () => {
       className="min-h-screen bg-primary flex flex-col justify-start items-center space-y-5"
     >
       {/* hero image */}
-      <div className="relative bg-secondary h-[100px] w-[100px] mt-6 rounded-full overflow-hidden  ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple">
+      <div className=" bg-secondary h-[100px] w-[100px] mt-6 rounded-full  overflow-hidden ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple z-1">
         <img
           src={ProfilePicture}
           alt="profile-img"
-          className="absolute mx-auto top-[-14px] object-cover z-1"
+          className="h-[150px] w-full mt-[-5px] object-cover "
         />
       </div>
 
