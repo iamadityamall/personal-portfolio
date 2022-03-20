@@ -6,14 +6,14 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="h-screen bg-primary flex flex-col justify-start items-center space-y-5"
+      className="min-h-screen bg-primary flex flex-col justify-start items-center space-y-5"
     >
       {/* hero image */}
-      <div className=" bg-secondary h-[110px] w-[110px] mt-6 rounded-full overflow-hidden ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple">
+      <div className="relative bg-secondary h-[100px] w-[100px] mt-6 rounded-full overflow-hidden  ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple">
         <img
           src={ProfilePicture}
           alt="profile-img"
-          className="relative h-[150px] w-[100px] object-cover mx-auto top-[-1px]"
+          className="absolute mx-auto top-[-14px] object-cover z-1"
         />
       </div>
 
