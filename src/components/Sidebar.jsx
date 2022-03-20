@@ -1,12 +1,31 @@
 import React from "react";
 import { navLinks } from "../data";
 import { useGlobalContext } from "../context";
+import { useEffect } from "react";
 
 const Sidebar = () => {
-  const { sidebar, setSidebar} = useGlobalContext();
-  const hideSidebar = () => {
-      setSidebar(!sidebar)
-  }
+  const { sidebar, setSidebar } = useGlobalContext();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (sidebar) {
+        setSidebar(false);
+      }
+    }, 5000);
+  }, [setSidebar, sidebar]);
+
+const handleClick = (e) => {
+  e.preventDefault();
+  setSidebar(!sidebar);
+  const target = e.target.getAttribute('href');
+  const location = document.querySelector(target).offsetTop;
+  
+  window.scrollTo({
+    left:0,
+    top: location - 80,
+  })
+  
+}
 
   return (
     <>
@@ -14,15 +33,20 @@ const Sidebar = () => {
       <div
         className={
           sidebar
-            ? "rounded-xl bg-secondary fixed right-0 mr-[5vw]"
+            ? "rounded-xl bg-primary fixed right-0 mr-[5vw] shadow-md border-2 border-black"
             : "hidden"
         }
       >
-        <div className="flex flex-col justify-center p-4 place-items-end">
+        <div className="flex flex-col justify-center p-2 place-items-center">
           {navLinks.map((navLink) => {
-            const { id, page } = navLink;
+            const { id, page, path } = navLink;
             return (
-              <a key={id} href={`#${page}`} className="text-darkPurple p-5 text-2xl rounded-lg hover:bg-lightPurple/40 font-Poppinsd" onClick={() => hideSidebar()}>
+              <a
+                key={id}
+                href={path}
+                className=" p-3 text-lg rounded-lg font-Poppins hover:text-black/70"
+                onClick={handleClick}
+              >
                 {page}
               </a>
             );

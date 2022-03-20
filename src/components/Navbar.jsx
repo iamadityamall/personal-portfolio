@@ -1,9 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
 import { useGlobalContext } from "../context";
-import { GrClose } from "react-icons/gr";
-
-
+import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const { sidebar, setSidebar } = useGlobalContext();
@@ -19,7 +17,7 @@ const Navbar = () => {
           className="p-2 text-3xl cursor-pointer"
           onClick={() => setSidebar(!sidebar)}
         >
-          {sidebar ? <GrClose className="text-darkPurple" /> : <FaBars />}
+          {sidebar ? <MdClose /> : <FaBars />}
         </div>
       </div>
     </nav>

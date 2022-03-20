@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <section id="hero" className='h-[90vh] bg-green-400'>HeroSection</section>
+    <section id="home" className='h-[90vh] bg-green-400'>HeroSection</section>
   )
 }
 
