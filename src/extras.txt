@@ -1,0 +1,26 @@
+smooth scroll
+
+1. // window.scrollTo({
+    //   top: 0,
+    //   left: 0,
+    //   behavior: "smooth",
+    // });
+
+2. /* html {
+    scroll-behavior: smooth;
+} */
+
+3. // smooth scroll to that link
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   setSidebar(!sidebar);
+  //   const target = e.target.getAttribute("href");
+  //   const location = document.querySelector(target).offsetTop;
+
+  //   window.scrollTo({
+  //     left: 0,
+  //     top: location - 80,
+  //   });
+  // };
+
+  

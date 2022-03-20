@@ -2,6 +2,7 @@ import React from "react";
 import { navLinks } from "../data";
 import { useGlobalContext } from "../context";
 import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Sidebar = () => {
   const { sidebar, setSidebar } = useGlobalContext();
@@ -11,21 +12,9 @@ const Sidebar = () => {
       if (sidebar) {
         setSidebar(false);
       }
-    }, 5000);
+    }, 7000);
   }, [setSidebar, sidebar]);
 
-  // smooth scroll to that link
-  const handleClick = (e) => {
-    e.preventDefault();
-    setSidebar(!sidebar);
-    const target = e.target.getAttribute("href");
-    const location = document.querySelector(target).offsetTop;
-
-    window.scrollTo({
-      left: 0,
-      top: location - 80,
-    });
-  };
 
   return (
     <>
@@ -39,16 +28,20 @@ const Sidebar = () => {
       >
         <div className="flex flex-col justify-center p-2 place-items-center">
           {navLinks.map((navLink) => {
-            const { id, page, path } = navLink;
+            const { id, page } = navLink;
             return (
-              <a
+              <Link
+                to={page}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={600}
                 key={id}
-                href={path}
                 className=" p-3 text-lg rounded-lg font-Poppins hover:text-black/70"
-                onClick={handleClick}
+                onClick={() => setSidebar(!sidebar)}
               >
                 {page}
-              </a>
+              </Link>
             );
           })}
         </div>

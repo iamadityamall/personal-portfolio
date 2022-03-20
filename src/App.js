@@ -7,13 +7,15 @@ import Sidebar from "./components/Sidebar";
 import ProjectsSection from "./components/Home/ProjectsSection";
 import ContactSection from "./components/Home/ContactSection";
 import { useEffect } from "react";
+import { animateScroll as scroll } from "react-scroll";
 
 const App = () => {
+  
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "smooth",
+    scroll.scrollToTop( {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
     });
   }, []);
 
