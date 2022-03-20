@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-primary flex flex-col justify-start items-center space-y-5"
+      className="min-h-screen bg-primary flex flex-col justify-center items-center space-y-5"
     >
       {/* hero image */}
       <div className=" bg-secondary h-[100px] w-[100px] mt-6 rounded-full  overflow-hidden ring-2  ring-darkPurple ring-offset-2 border-2 border-lightPurple z-1">
