@@ -48,7 +48,7 @@ const Navbar = () => {
           className="p-2 text-3xl cursor-pointer sm:hidden"
           onClick={() => setSidebar(!sidebar)}
         >
-          {sidebar ? <MdClose /> : <FaBars />}
+          {sidebar ? <MdClose className="text-darkPurple"/> : <FaBars />}
         </div>
       </div>
     </nav>

@@ -22,7 +22,7 @@ const Sidebar = () => {
       <div
         className={
           sidebar
-            ? "rounded-xl bg-primary fixed right-0 mr-[5vw] shadow-md border-2 border-black"
+            ? "rounded-xl bg-primary fixed right-0 mr-[5vw] shadow-md border-2 border-darkPurple"
             : "hidden"
         }
       >
@@ -34,10 +34,10 @@ const Sidebar = () => {
                 to={page}
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-64}
                 duration={600}
                 key={id}
-                className=" p-3 text-lg rounded-lg font-Poppins cursor-pointer hover:text-black/70"
+                className=" p-3 text-lg rounded-lg font-Poppins cursor-pointer hover:text-darkPurple"
                 onClick={() => setSidebar(!sidebar)}
               >
                 {page}
