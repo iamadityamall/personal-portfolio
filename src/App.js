@@ -17,8 +17,8 @@ const App = () => {
 
   return (
     <main className="bg-primary">
-      <Navbar />
       <section className="w-[90vw] mx-auto">
+        <Navbar />
         <Sidebar />
         <HeroSection />
         <AboutSection />

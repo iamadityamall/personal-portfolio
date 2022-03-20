@@ -26,7 +26,7 @@ const Sidebar = () => {
             : "hidden"
         }
       >
-        <div className="flex flex-col justify-center p-2 place-items-center">
+        <div className="flex flex-col justify-center p-2 place-items-center sm:hidden">
           {navLinks.map((navLink) => {
             const { id, page } = navLink;
             return (
@@ -37,7 +37,7 @@ const Sidebar = () => {
                 offset={-80}
                 duration={600}
                 key={id}
-                className=" p-3 text-lg rounded-lg font-Poppins hover:text-black/70"
+                className=" p-3 text-lg rounded-lg font-Poppins cursor-pointer hover:text-black/70"
                 onClick={() => setSidebar(!sidebar)}
               >
                 {page}
