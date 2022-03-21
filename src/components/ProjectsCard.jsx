@@ -18,7 +18,7 @@ const ProjectsCard = () => {
       <div className="text-left flex flex-col space-y-4 font-Poppins p-6">
         <div className="flex flex-col space-y-2">
           <h1 className="py-2 text-xl text-darkPurple">Portfolio Page</h1>
-          <p className="text-black/70">
+          <p className="text-black/70 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
             voluptatibus consectetur ea at temporibus aut veniam architecto
             consequatur quam ratione.
@@ -28,7 +28,7 @@ const ProjectsCard = () => {
           <h1 className="py-2 text-xl text-darkPurple">
             What Problem it solves
           </h1>
-          <p className="text-black/70">
+          <p className="text-black/70 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             possimus cupiditate fugiat voluptatum? Voluptatem possimus
             architecto perspiciatis, voluptatibus ratione repellendus?
@@ -36,7 +36,7 @@ const ProjectsCard = () => {
         </div>
         <div className="flex flex-col space-y-2">
           <h1 className="py-2 text-xl text-darkPurple">Features</h1>
-          <p className="text-black/70">
+          <p className="text-black/70 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             possimus cupiditate fugiat voluptatum? Voluptatem possimus
             architecto perspiciatis, voluptatibus ratione repellendus?
@@ -45,7 +45,7 @@ const ProjectsCard = () => {
       </div>
       {/* footer */}
       <div className="flex flex-col justify-between bg-darkPurple/10 items-center">
-        <div className="px-6 text-2xl flex space-x-2 w-full justify-between">
+        <div className="px-6 text-xl flex space-x-2 w-full justify-between">
           <div className="flex items-center space-x-4">
             <VscGithubInverted />
             <BiCodeAlt />
