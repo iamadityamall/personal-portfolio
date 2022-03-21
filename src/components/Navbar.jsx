@@ -32,7 +32,7 @@ const Navbar = () => {
                 to={page}
                 spy={true}
                 smooth={true}
-                offset={-64}
+                offset={-62}
                 duration={600}
                 key={id}
                 className="cursor-pointer p-3 rounded-lg hover:bg-black/25 font-Poppins sm:hover:text-darkPurple sm:hover:bg-secondary sm:hover:border-2 sm:hover:border-darkPurple"
