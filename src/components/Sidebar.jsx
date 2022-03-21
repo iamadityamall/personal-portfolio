@@ -34,7 +34,7 @@ const Sidebar = () => {
                 to={page}
                 spy={true}
                 smooth={true}
-                offset={-62}
+                offset={-90}
                 duration={600}
                 key={id}
                 className=" p-3 text-lg rounded-lg font-Poppins cursor-pointer hover:text-darkPurple"
