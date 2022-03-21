@@ -26,7 +26,7 @@ const About = () => {
 
       {/* Skill Section */}
       <section className="flex flex-col space-y-5 w-[80vw] mx-auto md:items-end xl:text-xl font-Poppins xl:space-y-8">
-        <h1 className="text-2xl xl:text-5xl">current-skill-sets💻</h1>
+        <h1 className="text-2xl xl:text-5xl">current-skill-sets-💻</h1>
         <div className="flex space-x-3 items-center justify-center">
           <h3>Language :</h3>
           <p>Lorem, ipsum dolor sit amet</p>
