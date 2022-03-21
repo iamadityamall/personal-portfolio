@@ -1,6 +1,5 @@
 import React from "react";
 import ProfilePicture from "../images/portfolio-website.png";
-import { FaHtml5 } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { BiCodeAlt } from "react-icons/bi";
 
