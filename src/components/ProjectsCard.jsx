@@ -5,19 +5,19 @@ import { BiCodeAlt } from "react-icons/bi";
 
 const ProjectsCard = () => {
   return (
-    <article className="bg-secondary flex flex-col rounded-3xl overflow-auto lg:flex-row lg:items-center">
+    <article className="bg-secondary flex flex-col rounded-3xl overflow-auto lg:flex-row lg:items-center shadow-xl">
       {/* image container */}
-      <header className="w-full h-[300px] p-2 lg:h-full lg:p-3">
+      <div className="w-full h-[300px] p-2 lg:h-full lg:p-3">
         <img
           src={ProfilePicture}
           alt=""
           className="w-full h-full object-cover rounded-3xl"
         />
-      </header>
+      </div>
       {/* project info */}
-      <div className="text-left flex flex-col space-y-4 font-Poppins p-4">
+      <div className="text-left flex flex-col space-y-4 font-Poppins p-4 lg:w-3/4">
         <div className="flex flex-col space-y-2">
-          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl border-b-2 border-darkPurple">
+          <h1 className="py-2 text-xl text-darkPurple lg:text-xl border-b-2 border-darkPurple">
             Portfolio Page
           </h1>
           <p className="text-black/70 text-sm lg:text-lg">
@@ -27,7 +27,7 @@ const ProjectsCard = () => {
           </p>
         </div>
         <div className="flex flex-col space-y-2">
-          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">
+          <h1 className="py-2 text-xl text-darkPurple lg:text-xl">
             What Problem it solves?
           </h1>
           <p className="text-black/70 text-sm lg:text-lg">
@@ -37,7 +37,7 @@ const ProjectsCard = () => {
           </p>
         </div>
         <div className="flex flex-col space-y-2">
-          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">Features:</h1>
+          <h1 className="py-2 text-xl text-darkPurple lg:text-xl">Features:</h1>
           <p className="text-black/70 text-sm lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             possimus cupiditate fugiat voluptatum? Voluptatem possimus
