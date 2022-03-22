@@ -1,7 +1,7 @@
 import React from "react";
 import SecondaryButton from "./SecondaryButton";
 
-const ProjectsCard = ({image, title_1, title_2, title_3, info_1, info_2, info_3, liveLink}) => {
+const ProjectsCard = ({image, title_1, title_2, title_3, info_1, info_2, info_3, liveLink, githubLink}) => {
   return (
     <article className="bg-secondary flex flex-col rounded-xl overflow-auto xl:flex-row xl:items-center shadow-xl p-2 xl:h-[75vh] xl:w-auto">
 
@@ -39,7 +39,7 @@ const ProjectsCard = ({image, title_1, title_2, title_3, info_1, info_2, info_3,
           </p>
         </div>
         <div className="flex justify-start space-x-4 items-center xl:justify-end">
-          <SecondaryButton name="github" />
+          <SecondaryButton name="github" link={githubLink}/>
           <SecondaryButton name="live" link={liveLink}/>
         </div>
       </div>

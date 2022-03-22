@@ -1,7 +1,7 @@
 import React from "react";
 import SecondaryButton from "./SecondaryButton";
 
-const CategoryCard = ({ icon, title, info, addInfo }) => {
+const CategoryCard = ({ icon, title, info, addInfo, liveLink, githubLink}) => {
   return (
     <article
       href="#projects"
@@ -26,8 +26,8 @@ const CategoryCard = ({ icon, title, info, addInfo }) => {
       <div className="flex flex-row justify-between items-center">
         <div>{addInfo}</div>
         <div className="space-x-4 ">
-          <SecondaryButton name="github" />
-          <SecondaryButton name="live" />
+          <SecondaryButton name="github" link={githubLink}/>
+          <SecondaryButton name="live" link={liveLink}/>
         </div>
       </div>
       
