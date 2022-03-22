@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <main
-      className="h-screen bg-primary flex flex-col text-center justify-evenly space-y-6 md:flex-row md:items-center md:space-x-5 xl:px-12"
+      className="h-screen bg-primary flex flex-col text-center justify-evenly space-y-6 md:flex-row md:space-x-5 xl:px-12 xl:items-center border-darkPurple border-t-2"
       id="about"
     >
       {/* About Me */}
