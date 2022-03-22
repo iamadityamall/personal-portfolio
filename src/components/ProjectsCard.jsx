@@ -17,7 +17,7 @@ const ProjectsCard = () => {
       {/* project info */}
       <div className="text-left flex flex-col space-y-4 font-Poppins p-4">
         <div className="flex flex-col space-y-2">
-          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">
+          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl border-b-2 border-darkPurple">
             Portfolio Page
           </h1>
           <p className="text-black/70 text-sm lg:text-lg">
@@ -28,7 +28,7 @@ const ProjectsCard = () => {
         </div>
         <div className="flex flex-col space-y-2">
           <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">
-            What Problem it solves
+            What Problem it solves?
           </h1>
           <p className="text-black/70 text-sm lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
@@ -37,7 +37,7 @@ const ProjectsCard = () => {
           </p>
         </div>
         <div className="flex flex-col space-y-2">
-          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">Features</h1>
+          <h1 className="py-2 text-xl text-darkPurple lg:text-2xl">Features:</h1>
           <p className="text-black/70 text-sm lg:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             possimus cupiditate fugiat voluptatum? Voluptatem possimus
