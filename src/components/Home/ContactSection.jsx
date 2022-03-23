@@ -13,7 +13,7 @@ const ContactSection = () => {
         <p className="xl:text-xl xl:p-6">drop a message, let's connect</p>
       </div>
       <div>
-        <form className="flex flex-col w-[400px] mx-auto space-y-2">
+        <form className="flex flex-col w-[350px] mx-auto space-y-2">
           <input
             type="text"
             name="firstName"
