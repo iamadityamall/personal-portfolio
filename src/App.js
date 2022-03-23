@@ -9,9 +9,9 @@ import ContactSection from "./components/Home/ContactSection";
 import { useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import VerticalEmailSection from "./components/Home/VerticalEmailSection";
+import SocialSection from "./components/Home/SocialSection";
 
 const App = () => {
-  
   useEffect(() => {
     scroll.scrollToTop("hero");
   }, []);
@@ -21,11 +21,12 @@ const App = () => {
       <section className="w-[90vw] mx-auto">
         <Navbar />
         <Sidebar />
-        <VerticalEmailSection/>
+        <VerticalEmailSection />
         <HeroSection />
         <AboutSection />
         <ProjectsSection />
         <ContactSection />
+        <SocialSection />
         <Footer />
       </section>
     </main>
