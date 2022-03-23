@@ -16,6 +16,7 @@ const projectData = [
     info_3:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
     liveLink: "https://adityamall.netlify.app/",
+    githubLink: "https://github.com/iamadityamall/minimilist-portfolio",
   },
   {
     id: 1,
@@ -31,6 +32,7 @@ const projectData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
     liveLink:
       "https://adityamall.netlify.app/projects/thermal-fluid/be-peltier-project.html",
+    githubLink: "",
   },
   {
     id: 2,
@@ -46,6 +48,7 @@ const projectData = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
     liveLink:
       "https://adityamall.netlify.app/projects/thermal-fluid/diplo-pelt-project.html",
+    githubLink: "",
   },
 ];
 
@@ -56,8 +59,8 @@ const otherProjectData = [
     title: "react projects",
     info: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,",
     addInfo: "create react app",
-    liveLink: "",
-    gitHubLink: "",
+    liveLink: "https://am-rp.netlify.app/",
+    githubLink: "https://github.com/iamadityamall/react-projects",
   },
   {
     id: 1,
@@ -65,8 +68,8 @@ const otherProjectData = [
     title: "javascript projects",
     info: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,",
     addInfo: "webpack & babel",
-    liveLink: "",
-    gitHubLink: "",
+    liveLink: "https://am-jp.netlify.app",
+    githubLink: "https://github.com/iamadityamall/javascript-projects",
   },
   {
     id: 2,
@@ -74,8 +77,8 @@ const otherProjectData = [
     title: "frontend ui react projects",
     info: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam,",
     addInfo: "figma to code",
-    liveLink: "",
-    gitHubLink: "",
+    liveLink: "https://am-feup.netlify.app",
+    githubLink: "https://github.com/iamadityamall/front-end-ui-projects",
   },
 ];
 
