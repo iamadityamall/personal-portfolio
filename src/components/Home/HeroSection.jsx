@@ -48,8 +48,11 @@ const HeroSection = () => {
 
         {/* call to action */}
         <div className="flex space-x-10 justify-center md:justify-start">
-          <PrimaryButton name="connect" url="contact"/>
-          <PrimaryButton name="resume" url="projects" />
+          <PrimaryButton name="connect" url="contact" />
+          <PrimaryButton
+            name="resume"
+            url="https://resume-adityamall.netlify.app/"
+          />
         </div>
       </div>
     </section>
