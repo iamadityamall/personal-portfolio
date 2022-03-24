@@ -14,7 +14,7 @@ const ProjectsCard = ({
 }) => {
   if (!githubLink) {
     return (
-      <article className="bg-secondary flex flex-col rounded-xl overflow-auto xl:flex-row xl:items-center shadow-xl p-2 xl:h-[75vh] xl:w-auto">
+      <article className="bg-secondary flex flex-col rounded-xl overflow-auto xl:flex-row xl:items-center  p-2 xl:h-[75vh] xl:w-auto border-2 border-darkPurple">
         {/* image container */}
         <div className="w-full h-[300px] xl:h-full p-2">
           <img
@@ -25,7 +25,7 @@ const ProjectsCard = ({
         </div>
 
         {/* project info */}
-        <div className="text-left flex flex-col space-y-4 font-Poppins p-4 xl:w-3/4 xl:h-full xl:justify-center">
+        <div className="text-left flex flex-col space-y-4 font-Poppins p-4 xl:w-3/4 xl:h-full xl:justify-center ">
           <div className="flex flex-col">
             <h1 className="py-2 text-xl text-darkPurple xl:text-lg border-b-2 border-darkPurple">
               {title_1}
@@ -53,7 +53,7 @@ const ProjectsCard = ({
     );
   }
   return (
-    <article className="bg-secondary flex flex-col rounded-xl overflow-auto xl:flex-row xl:items-center shadow-xl p-2 xl:h-[75vh] xl:w-auto">
+    <article className="bg-secondary flex flex-col rounded-xl overflow-auto xl:flex-row xl:items-center border-2 border-darkPurple p-2 xl:h-[75vh] xl:w-auto">
       {/* image container */}
       <div className="w-full h-[300px] xl:h-full p-2">
         <img

@@ -11,7 +11,7 @@ const SocialSection = () => {
             <p className='xl:text-xl xl:p-5'>"look at my work on other platforms. caution: you might not find many, since started recently."</p>
         </div>
         {/* map through links */}
-        <div className=' flex flex-col space-y-5 xl:flex-row xl:space-y-0 xl:justify-center xl:space-x-5 xl:p-10 '>
+        <div className='grid grid-cols-4 gap-8 w-[80vw] mx-auto'>
             {socialLinks.map((socialLink) => {
                 const {id} = socialLink;
                 return <SocialCards key={id} {...socialLink}/>

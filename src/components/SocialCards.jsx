@@ -6,7 +6,7 @@ const SocialCards = ({name, info, image, url}) => {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="flex mx-auto p-8 h-20 w-[80vw] justify-between items-center rounded-2xl bg-secondary text-darkPurple font-Poppins hover:bg-darkPurple/60 hover:text-white xl:h-[20vh] border-2 border-darkPurple"
+      className="flex mx-auto p-8 w-full h-20 justify-between items-center rounded-2xl bg-secondary text-darkPurple font-Poppins hover:bg-darkPurple/60 hover:text-white xl:h-[20vh] border-2 border-darkPurple"
     >
       <div className="flex flex-col ">
         <h1 className="border-b-2 border-darkPurple">{name}</h1>
