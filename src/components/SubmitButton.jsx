@@ -11,7 +11,7 @@ const SubmitButton = ({
   const submitData = async (e) => {
     e.preventDefault();
     if (firstName && lastName && email && message) {
-      const res = fetch(
+      const res = await fetch(
         "https://personal-portfolio-contact-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
