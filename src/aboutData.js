@@ -26,7 +26,7 @@ const skillsData = [
   {
     id: 3,
     title: "others",
-    info: "excel, word, solidworks",
+    info: "excel, word, solidworks, git",
   },
 ];
 
