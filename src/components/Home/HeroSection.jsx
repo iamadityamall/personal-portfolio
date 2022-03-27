@@ -1,8 +1,10 @@
 import React from "react";
 import PrimaryButton from "../PrimaryButton";
 import ProfilePicture from "../../images/profile-pic-nobackground-silver.png";
+import { heroData } from "../../heroData";
 
 const HeroSection = () => {
+  const {title_1, title_2, title_3, info_1, info_2} = heroData[0];
   return (
     <section
       id="home"
@@ -22,26 +24,20 @@ const HeroSection = () => {
         {/* hero title */}
         <div className="font-Poppins flex flex-col items-center space-y-6 md:items-start">
           <div className="flex items-center space-x-4">
-            <h4 className="font-bold py-2 xl:text-xl">hello, 👋 I am</h4>
+            <h4 className="font-bold py-2 xl:text-xl">{title_1}</h4>
             <div className="w-20 h-[4px] bg-darkPurple"></div>
           </div>
 
           <h1 className="text-2xl text-center md:text-left xl:text-5xl xl:leading-relaxed">
-            Aditya Mall <br /> {` <frontend developer />`}{" "}
+            {title_2} <br /> {title_3}{" "}
           </h1>
 
           <div className="text-md flex flex-col space-y-6 justify-center font-Lato text-center w-[80vw] md:items-start md:w-[50vw] md:text-left xl:text-xl">
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
-              totam omnis aliquam, recusandae accusantium ad, officia soluta
-              hic, sunt veritatis fugiat nostrum nesciunt? Voluptas dignissimos
-              magni illo vero esse obcaecati?
+              {info_1}
             </p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
-              illo numquam voluptatum, sapiente vitae suscipit nihil cum ipsum
-              libero consequatur ad, odio quidem ipsa nam id aliquid eius vero
-              earum!
+              {info_2}
             </p>
           </div>
         </div>
