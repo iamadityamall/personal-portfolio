@@ -4,11 +4,11 @@ const aboutData = [
     info_0:
       "Before coding, I volunteered as a soccer coach and tech support intern at a local school. In 2022, I took a leap and trained in modern app development at udemy.",
     info_1:
-      "hi, I am Aditya, a self taught frontend developer. My goal is to become a software engineer and build scalable, interactive web apps.",
+      "Hi, I am Aditya, a self taught frontend developer. My goal is to become a software engineer and build scalable, interactive web apps.",
     info_2:
-      "my development environment consist of vscode, chrome, github and a sprinkle of coffee beans when needed.",
+      "My development environment consist of vscode, chrome, github and a sprinkle of coffee beans when needed.",
     info_3:
-      "when i am not on the computer, you can find me in the gym or running tracks.",
+      "When i am not on the computer, you can find me in the gym or running tracks.",
   },
 ];
 
