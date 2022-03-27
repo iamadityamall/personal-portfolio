@@ -13,7 +13,7 @@ const ContactSection = () => {
         <p className="xl:text-xl xl:p-6">drop a message, let's connect</p>
       </div>
       <div>
-        <form className="flex flex-col w-[350px] mx-auto space-y-2 xl:w-[400px]">
+        <form name="contact" method="POST" data-netlify="true" className="flex flex-col w-[350px] mx-auto space-y-2 xl:w-[400px]">
           <input
             type="text"
             name="firstName"
@@ -25,7 +25,7 @@ const ContactSection = () => {
             type="text"
             name="lastName"
             id=""
-            placeholder="second name"
+            placeholder="last name"
             className="p-4 border-2 border-darkPurple"
           />
           <input

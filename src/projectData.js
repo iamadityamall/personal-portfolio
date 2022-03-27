@@ -8,13 +8,13 @@ const projectData = [
     image: profileImg_1,
     title_1: "Portfolio Page",
     info_1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatibus consectetur ea at temporibus aut veniam architecto consequatur quam ratione.",
-    title_2: "What problem it solves",
+      "Needed a presence on the internet, so that people can find my work easily. This is my first portfolio page.",
+    title_2: "What problem it solves?",
     info_2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Provide authenticity and credibility of my work as self taught developer. Make me available and searchable for new clients.",
     title_3: "Features",
     info_3:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Made with html, css and javascripts. some animations and transition features incorporated with delays.",
     liveLink: "https://adityamall.netlify.app/",
     githubLink: "https://github.com/iamadityamall/minimilist-portfolio",
   },
@@ -23,13 +23,13 @@ const projectData = [
     image: profileImg_2,
     title_1: "Waste heat management system",
     info_1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatibus consectetur ea at temporibus aut veniam architecto consequatur quam ratione.",
-    title_2: "What problem it solves",
+      "Build and designed a portable fridge cum mini oven, using principle of seeback effect of peltier plates.",
+      title_2: 'What problem it solves?',
     info_2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Since peltier plates dissipates a lot of waste heat, which justs adds up to enviroment temperature. We thought of utilizing this heat for heating purpose where pulses and welding rods can be kept dry in low humidity in rainy season ad cooling side used to store beverages.",
     title_3: "Features",
     info_3:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Temperature drop of 6 degree celsius from 24 to 19 deg. While the hot side rose to 55 to 60deg celsius with 30% humidity. Used cpu fans and heatsinks for heat transfer with thermocole for insulation",
     liveLink:
       "https://adityamall.netlify.app/projects/thermal-fluid/be-peltier-project.html",
     githubLink: "",
@@ -39,13 +39,13 @@ const projectData = [
     image: profileImg_3,
     title_1: "Peltier air cooler",
     info_1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptatibus consectetur ea at temporibus aut veniam architecto consequatur quam ratione.",
-    title_2: "What problem it solves",
+      "Build a peltier air cooler with a relative humidity of 80%.",
     info_2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Carring a huge air conditoiner to work is not a feasible solution. So here we build an portable air cooler working on peltier plates which would consume less electricity, be portable and thus weights less for your pockets.",
     title_3: "Features",
+    title_2: "What problems it solved?",
     info_3:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam possimus cupiditate fugiat voluptatum? Voluptatem possimus architecto perspiciatis, voluptatibus ratione repellendus?",
+      "Obtained temperature drop of 4 degree celsius from 27 deg to 23 deg. relative humidity obtain from bulb test was around 80%.",
     liveLink:
       "https://adityamall.netlify.app/projects/thermal-fluid/diplo-pelt-project.html",
     githubLink: "",
