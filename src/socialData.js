@@ -5,7 +5,7 @@ const socialLinks = [
     info: "code repository",
     image:
       "https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU",
-    url: "https://pbs.twimg.com/profile_images/923214541290221569/dCMZxkwz_400x400.jpg",
+    url: "https://github.com/iamadityamall",
   },
   {
     id: 1,
