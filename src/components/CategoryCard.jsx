@@ -7,7 +7,7 @@ const CategoryCard = ({ icon, title, info, addInfo, liveLink, githubLink}) => {
       href="#projects"
       target="_blank"
       rel="noreferrer"
-      className="bg-secondary rounded-3xl h-[250px] text-left p-6 flex flex-col justify-between font-Poppins border-2 border-darkPurple text-darkPurple w-"
+      className="bg-secondary rounded-3xl h-[250px] text-left p-6 flex flex-col justify-between font-Poppins border-2 border-darkPurple text-darkPurple w-full"
     >
       {/* category icon */}
       <div>
