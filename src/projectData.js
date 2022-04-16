@@ -15,7 +15,7 @@ const projectData = [
     title_3: "Features",
     info_3:
       "Made with html, css and javascripts. some animations and transition features incorporated with delays.",
-    liveLink: "https://adityamall.netlify.app/",
+    liveLink: "https://adityamall-old.netlify.app/",
     githubLink: "https://github.com/iamadityamall/minimilist-portfolio",
   },
   {
@@ -31,7 +31,7 @@ const projectData = [
     info_3:
       "Temperature drop of 6 degree celsius from 24 to 19 deg. While the hot side rose to 55 to 60deg celsius with 30% humidity. Used cpu fans and heatsinks for heat transfer with thermocole for insulation",
     liveLink:
-      "https://adityamall.netlify.app/projects/thermal-fluid/be-peltier-project.html",
+      "https://adityamall-old.netlify.app/projects/thermal-fluid/be-peltier-project.html",
     githubLink: "",
   },
   {
@@ -47,7 +47,7 @@ const projectData = [
     info_3:
       "Obtained temperature drop of 4 degree celsius from 27 deg to 23 deg. relative humidity obtain from bulb test was around 80%.",
     liveLink:
-      "https://adityamall.netlify.app/projects/thermal-fluid/diplo-pelt-project.html",
+      "https://adityamall-old.netlify.app/projects/thermal-fluid/diplo-pelt-project.html",
     githubLink: "",
   },
 ];
