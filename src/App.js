@@ -9,7 +9,7 @@ import ContactSection from "./components/Home/ContactSection";
 import { useEffect } from "react";
 import { animateScroll as scroll } from "react-scroll";
 import VerticalEmailSection from "./components/Home/VerticalEmailSection";
-import SocialSection from "./components/Home/SocialSection";
+// import SocialSection from "./components/Home/SocialSection";
 
 const App = () => {
   useEffect(() => {
@@ -26,7 +26,7 @@ const App = () => {
         <AboutSection />
         <ProjectsSection />
         <ContactSection />
-        <SocialSection />
+        {/* <SocialSection /> */}
         <Footer />
       </section>
     </main>

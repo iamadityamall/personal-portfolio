@@ -13,10 +13,10 @@ const About = () => {
       {/* About Me */}
       <section className="flex flex-col space-y-5 font-Poppins w-[80vw] mx-auto justify-center md:items-start md:text-left xl:space-y-8 xl:leading-relaxed">
         <h1 className="text-2xl xl:text-5xl">about- 👨‍💻</h1>
-        <p className="xl:text-xl">{info_0}</p>
-        <p className="xl:text-xl">{info_1}</p>
-        <p className="xl:text-xl">{info_2}</p>
-        <p className="xl:text-xl">{info_3}</p>
+        <p className="xl:text-xl indent-10">{info_0}</p>
+        <p className="xl:text-xl indent-10">{info_1}</p>
+        <p className="xl:text-xl indent-10">{info_2}</p>
+        <p className="xl:text-xl indent-10">{info_3}</p>
       </section>
 
       {/* Skill Section */}
